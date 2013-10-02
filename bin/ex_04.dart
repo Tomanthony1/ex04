@@ -1,13 +1,13 @@
-// Import library
+// import library
 import 'dart:math' as math;
 
 //1.
-Fibonacci(t){
+Fibonacci(t) {
     var a = 0;
     var b = 1;
     var f = 1;
     String o='0 1';
-    for(var i = 1; i < t - 1; i++){
+    for(var i = 1; i < t - 1; i++) {
       var f = a + b; 
       o = '$o $f';
       a = b;
@@ -17,7 +17,7 @@ Fibonacci(t){
   }
 
 //2.
-Coordinates(l, d){
+Coordinates(l, d) {
   var x = 0;
   var y = 0;
   var width = 980;
@@ -31,7 +31,7 @@ Coordinates(l, d){
 }
 
 //3.
-Birthday(y, m, d){
+Birthday(y, m, d) {
   int birthyear = 1992;
   int birthmonth = 4;
   int birthday = 13;
@@ -57,7 +57,7 @@ Birthday(y, m, d){
 }
 
 //4.
-Interest(c, t, r){
+Interest(c, t, r) {
   var o = "\n";
   var interest_i = c;
   for(var i = 0; i < t + 1; i++){
@@ -68,7 +68,7 @@ Interest(c, t, r){
 }
 
 //5.
-Table(n, s){
+Table(n, s) {
   var o = "\n";
   var t = n;
   for(var i = 1; i < s + 1; i++){
@@ -78,7 +78,7 @@ Table(n, s){
   return o;
 }
 
-void main () {
+void main() {
   print('Tom Anthony Olesen \n\nSIO Exercice 4\n');
   
   //1.

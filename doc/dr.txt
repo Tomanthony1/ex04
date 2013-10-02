@@ -1,0 +1,19 @@
+ex04
+
+8/10
+ 
+packages @GitHub ?
+
+(-1) formater le code
+Fibonacci -> fibonacci
+Coordinates -> coordinates
+...
+voir https://www.dartlang.org/articles/style-guide/
+
+4.2
+(-1) le résultat n'est pas correcte
+correcte:
+The end point of the line is at (590.64, 395.36).
+
+
+
